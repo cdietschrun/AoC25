@@ -92,5 +92,5 @@ int main()
 	inputFile.clear();
 	inputFile.seekg(0, std::ios::beg);
 
-	std::cout << "Day 2 Password: " << Day1_2(inputFile) << std::endl;
+	std::cout << "Day 1 part 2 Password: " << Day1_2(inputFile) << std::endl;
 }
